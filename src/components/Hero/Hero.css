@@ -1,0 +1,165 @@
+.hero {
+  font-family: proxima-nova-condensed, Verdana, Geneva, sans-serif;
+  color: white;
+  margin: 0 auto;
+}
+
+.hero .title {
+  margin: auto;
+  text-align: center;
+  padding: 180px 0 72px;
+}
+
+.hero .title img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.hero .title img:last-of-type {
+  margin-top: -17px;
+}
+
+.hero .title span {
+  display: block;
+  max-width: 1050px;
+  margin: auto;
+  font-weight: 300;
+  font-size: 73px;
+  font-style: italic;
+  letter-spacing: 12px;
+  line-height: 1;
+  position: relative;
+  overflow: hidden;
+  padding-left: 12px;
+}
+
+.hero .title span:before, .hero .title span:after {
+  content: '';
+  position: absolute;
+  width: calc(50% - 168px);
+  height: 3px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hero .title span:before {
+  left: 0;
+}
+
+.hero .title span:after {
+  right: 0;
+}
+
+.hero p {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 27px;
+  max-width: 792px;
+  width: 100%;
+  margin: 0 auto 60px;
+}
+
+.hero p span {
+  display: inline-block;
+}
+
+.hero .commit-bttn {
+  display: block;
+  position: relative;
+  margin: 0 auto 80px auto;
+  max-width: 385px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 28px;
+  -webkit-transition-duration: 0.45s;
+          transition-duration: 0.45s;
+  cursor: pointer;
+}
+
+.hero .commit-bttn:hover, .hero .commit-bttn:focus {
+  background-color: #ab0520;
+}
+
+.hero .scroll {
+  text-align: center;
+}
+
+.hero .scroll .chevron {
+  display: block;
+  margin: auto;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 27px;
+  height: 27px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: .5;
+}
+
+.hero .scroll .chevron:last-of-type {
+  margin-top: -6px;
+}
+
+@media screen and (max-width: 1250px) {
+  .hero .title span {
+    margin: 0 6%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hero .title {
+    padding: 90px 0 26px;
+  }
+  .hero p {
+    margin-bottom: 40px;
+  }
+  .hero .commit-bttn {
+    margin-bottom: 50px;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero .title {
+    padding: 45px 0 13px;
+  }
+  .hero .title span {
+    font-size: 7vw;
+  }
+  .hero .title span:before, .hero .title span:after {
+    width: 27%;
+  }
+  .hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    padding: 0 6%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .hero .commit-bttn {
+    margin-bottom: 20px;
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero .title span:before, .hero .title span:after {
+    width: 24%;
+  }
+  .hero .commit-bttn {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    max-width: 210px;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

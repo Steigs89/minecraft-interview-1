@@ -1,0 +1,45 @@
+.minecraft-carousel{
+	.carousel-root{
+		.carousel{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			max-width: 1080px;
+			margin: 0 auto;
+			&.carousel-slider{
+				.control-arrow{
+					position: relative;
+					width: 30px;
+					&.control-prev{
+						margin-right: 14px;
+					}
+					&.control-next{
+						margin-left: 14px;
+					}
+				}
+			}
+			.thumbs-wrapper{
+				display: none;
+				margin: 40px auto 0 auto;
+				.thumb{
+					border: none;
+					&.selected, &:hover{
+						border: none;
+					}
+				}
+			}
+			.control-dots{
+				.dot{
+					box-shadow: none;
+					background-color: #001c48;
+					opacity: 0.65;
+					width: 14px;
+					height: 14px;
+					&.selected{
+						opacity: 1;
+					}
+				}
+			} 
+		}
+	}
+}

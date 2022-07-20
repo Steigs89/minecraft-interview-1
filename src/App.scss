@@ -1,0 +1,433 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+/*GLOBALS*/
+/**colors**/
+$bloom: #ef4056;
+$uared: #ab0520;
+$chili: #8b0015;
+$sky: #81d3eb;
+$oasis: #378dbd;
+$azurite: #1e5288;
+$uablue: #0c234b;
+$midnight: #001c48;
+$coolgrey: #e2e9eb;
+$warmgrey: #f4ede5;
+$leaf: #70b865;
+$river: #007d84;
+$silver: #9eabae;
+$mesa: #a95c42;
+* {
+	margin: 0;
+	font-family: proxima-nova, Verdana, Geneva, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: proxima-nova-condensed, Verdana, Geneva, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-display: fallback;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    line-height: 1;
+    height: 100%;
+	position: relative;
+	background-color: #011940;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 1.8rem;
+}
+a{
+	color: $bloom;
+	text-decoration: none;
+	font-weight: 700;
+}
+h3{
+	text-align: center;
+	font-size: 44px;
+	line-height: 1;
+	margin: 0 0 40px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+section{
+	display: block;
+	position: relative;
+	margin: 140px auto 0 auto;
+}
+.main-container {
+	width: 100%;
+	background-color: #011940;
+	margin: 0 auto;
+	padding-bottom: 234px;
+	background: radial-gradient(circle at center 11%, #1E5288 0%, #071F46 18%, #011940 100%);
+    &.arizona-blue {
+        background-color: $uablue;
+    }
+    &.white {
+        background-color: #ffffff;
+    }
+    &.cool-grey {
+        background-color: $coolgrey;
+    }
+    &.bloom {
+        background-color: $bloom;
+    }
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+        overflow: hidden;
+    }
+}
+.container{
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 950px){
+	.main-container{
+		padding-bottom: 78px;
+	}
+	section{
+		margin: 80px auto 0 auto;
+	}
+	h3{
+		margin: 0 0 60px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.main-container{
+		padding-bottom: 45px;
+	}
+	section{
+		margin: 60px auto 0 auto;
+	}
+	h3{
+		font-size: 30px;
+		margin: 0 0 45px;
+	}
+}
+
+// Globals
+// Font color
+.font-color-bloom{
+	color: $bloom;
+}
+.font-color-uared{
+	color: $uared;
+}
+.font-color-chili{
+	color: $chili;
+}
+.font-color-sky{
+	color: $sky;
+}
+.font-color-oasis{
+	color: $oasis;
+}
+.font-color-azurite{
+	color: $azurite;
+}
+.font-color-uablue{
+	color: $uablue;
+}
+.font-color-midnight{
+	color: $midnight;
+}
+.font-color-coolgrey{
+	color: $coolgrey;
+}
+.font-color-warmgrey{
+	color: $warmgrey;
+}
+.font-color-leaf{
+	color: $leaf;
+}
+.font-color-river{
+	color: $river;
+}
+.font-color-silver{
+	color: $silver;
+}
+.font-color-mesa{
+	color: $mesa;
+}
+
+//  BG Color
+.bg-color-bloom{
+	background-color: $bloom;
+}
+.bg-color-uared{
+	background-color: $uared;
+}
+.bg-color-chili{
+	background-color: $chili;
+}
+.bg-color-sky{
+	background-color: $sky;
+}
+.bg-color-oasis{
+	background-color: $oasis;
+}
+.bg-color-azurite{
+	background-color: $azurite;
+}
+.bg-color-uablue{
+	background-color: $uablue;
+}
+.bg-color-midnight{
+	background-color: $midnight;
+}
+.bg-color-coolgrey{
+	background-color: $coolgrey;
+}
+.bg-color-warmgrey{
+	background-color: $warmgrey;
+}
+.bg-color-leaf{
+	background-color: $leaf;
+}
+.bg-color-river{
+	background-color: $river;
+}
+.bg-color-silver{
+	background-color: $silver;
+}
+.bg-color-mesa{
+	background-color: $mesa;
+}
+
+// Border color
+.border-color-bloom{
+	border-color: $bloom;
+}
+.border-color-uared{
+	border-color: $uared;
+}
+.border-color-chili{
+	border-color: $chili;
+}
+.border-color-sky{
+	border-color: $sky;
+}
+.border-color-oasis{
+	border-color: $oasis;
+}
+.border-color-azurite{
+	border-color: $azurite;
+}
+.border-color-uablue{
+	border-color: $uablue;
+}
+.border-color-midnight{
+	border-color: $midnight;
+}
+.border-color-coolgrey{
+	border-color: $coolgrey;
+}
+.border-color-warmgrey{
+	border-color: $warmgrey;
+}
+.border-color-leaf{
+	border-color: $leaf;
+}
+.border-color-river{
+	border-color: $river;
+}
+.border-color-silver{
+	border-color: $silver;
+}
+.border-color-mesa{
+	border-color: $mesa;
+}
+
+// psuedo color
+.psuedo-before-color-bloom{
+	&:before{
+		background-color: $bloom;
+	}
+}
+.psuedo-before-color-uared{
+	&:before{
+		background-color: $uared;
+	}
+}
+.psuedo-before-color-chili{
+	&:before{
+		background-color: $chili;
+	}
+}
+.psuedo-before-color-sky{
+	&:before{
+		background-color: $sky;
+	}
+}
+.psuedo-before-color-oasis{
+	&:before{
+		background-color: $oasis;
+	}
+}
+.psuedo-before-color-azurite{
+	&:before{
+		background-color: $azurite;
+	}
+}
+.psuedo-before-color-uablue{
+	&:before{
+		background-color: $uablue;
+	}
+}
+.psuedo-before-color-midnight{
+	&:before{
+		background-color: $midnight;
+	}
+}
+.psuedo-before-color-coolgrey{
+	&:before{
+		background-color: $coolgrey;
+	}
+}
+.psuedo-before-color-warmgrey{
+	&:before{
+		background-color: $warmgrey;
+	}
+}
+.psuedo-before-color-leaf{
+	&:before{
+		background-color: $leaf;
+	}
+}
+.psuedo-before-color-river{
+	&:before{
+		background-color: $river;
+	}
+}
+.psuedo-before-color-silver{
+	&:before{
+		background-color: $silver;
+	}
+}
+.psuedo-before-color-mesa{
+	&:before{
+		background-color: $mesa;
+	}
+}
+
+// after
+.psuedo-after-color-bloom{
+	&:after{
+		background-color: $bloom;
+	}
+}
+.psuedo-after-color-uared{
+	&:after{
+		background-color: $uared;
+	}
+}
+.psuedo-after-color-chili{
+	&:after{
+		background-color: $chili;
+	}
+}
+.psuedo-after-color-sky{
+	&:after{
+		background-color: $sky;
+	}
+}
+.psuedo-after-color-oasis{
+	&:after{
+		background-color: $oasis;
+	}
+}
+.psuedo-after-color-azurite{
+	&:after{
+		background-color: $azurite;
+	}
+}
+.psuedo-after-color-uablue{
+	&:after{
+		background-color: $uablue;
+	}
+}
+.psuedo-after-color-midnight{
+	&:after{
+		background-color: $midnight;
+	}
+}
+.psuedo-after-color-coolgrey{
+	&:after{
+		background-color: $coolgrey;
+	}
+}
+.psuedo-after-color-warmgrey{
+	&:after{
+		background-color: $warmgrey;
+	}
+}
+.psuedo-after-color-leaf{
+	&:after{
+		background-color: $leaf;
+	}
+}
+.psuedo-after-color-river{
+	&:after{
+		background-color: $river;
+	}
+}
+.psuedo-after-color-silver{
+	&:after{
+		background-color: $silver;
+	}
+}
+.psuedo-after-color-mesa{
+	&:after{
+		background-color: $mesa;
+	}
+}
+
+
+.thank-you-section{
+	p{
+		font-size: 20px;
+		text-align: center;
+		max-width: 790px;
+		margin: 0 auto;
+	}
+	.thank-you-img{
+		display: block;
+		margin: 0 auto;
+		max-width: 588px;
+		width: 100%;
+	}
+}

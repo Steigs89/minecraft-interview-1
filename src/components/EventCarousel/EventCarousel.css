@@ -1,0 +1,53 @@
+.minecraft-carousel .carousel-root .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.minecraft-carousel .carousel-root .carousel.carousel-slider .control-arrow {
+  position: relative;
+  width: 30px;
+}
+
+.minecraft-carousel .carousel-root .carousel.carousel-slider .control-arrow.control-prev {
+  margin-right: 14px;
+}
+
+.minecraft-carousel .carousel-root .carousel.carousel-slider .control-arrow.control-next {
+  margin-left: 14px;
+}
+
+.minecraft-carousel .carousel-root .carousel .thumbs-wrapper {
+  display: none;
+  margin: 40px auto 0 auto;
+}
+
+.minecraft-carousel .carousel-root .carousel .thumbs-wrapper .thumb {
+  border: none;
+}
+
+.minecraft-carousel .carousel-root .carousel .thumbs-wrapper .thumb.selected, .minecraft-carousel .carousel-root .carousel .thumbs-wrapper .thumb:hover {
+  border: none;
+}
+
+.minecraft-carousel .carousel-root .carousel .control-dots .dot {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #001c48;
+  opacity: 0.65;
+  width: 14px;
+  height: 14px;
+}
+
+.minecraft-carousel .carousel-root .carousel .control-dots .dot.selected {
+  opacity: 1;
+}
+/*# sourceMappingURL=EventCarousel.css.map */

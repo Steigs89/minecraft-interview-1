@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACf,QAAQ,EAAE,QAAQ;CAYlB;;AAbD,AAEC,gBAFe,CAEf,EAAE,CAAA;EACD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACnB;;AAPF,AAQC,gBARe,CAQf,MAAM,CAAA;EACL,YAAY,EAAE,MAAM;EACpB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACZ",
+    "sources": [
+        "MinecraftVideo.scss"
+    ],
+    "names": [],
+    "file": "MinecraftVideo.css"
+}

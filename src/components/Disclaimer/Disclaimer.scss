@@ -1,0 +1,32 @@
+.disclaimer{
+    width: 100%;
+    box-sizing: border-box;
+    .disclaimer-text{
+        padding: 40px 80px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
+		line-height: 30px;
+		border-width: 1px;
+		border-style: solid;
+		h4{
+			font-weight: 400;
+			font-size: 24px;
+			margin-bottom: 18px;
+		}
+		p{
+			padding-bottom: 0.9em;
+			font-style: italic;
+		}
+    }
+    @media screen and (max-width: 950px) {
+        .disclaimer-text{
+            padding: 20px 40px;
+        }
+    }
+    @media screen and (max-width: 750px) {
+        .disclaimer-text{
+            padding: 20px;
+        }
+    }
+}

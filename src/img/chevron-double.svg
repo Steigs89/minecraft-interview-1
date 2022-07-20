@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.242" height="49.241" viewBox="0 0 49.242 49.241">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 3px;
+        opacity: 0.498;
+      }
+    </style>
+  </defs>
+  <g id="chevron-double" transform="translate(-934.977 -981.662)">
+    <path id="chevron-single" class="cls-1" d="M2598,1067.2l22.5,22.458L2643,1067.2" transform="translate(-1660.902 -83.414)"/>
+    <path id="Path_660" data-name="Path 660" class="cls-1" d="M2598,1067.2l22.5,22.458L2643,1067.2" transform="translate(-1660.902 -60.872)"/>
+  </g>
+</svg>

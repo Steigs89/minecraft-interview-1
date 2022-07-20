@@ -1,0 +1,81 @@
+.how-to-play-wrap {
+  display: block;
+  margin: 0 auto 130px;
+}
+
+.how-to-play-wrap h4 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.how-to-play-wrap hr {
+  border-color: #1e5288;
+  width: 95%;
+  margin: 0 auto;
+  max-width: 996px;
+}
+
+.how-to-play-wrap .how-to-list {
+  position: relative;
+  margin: 60px auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.how-to-play-wrap .how-to-list .how-to-item {
+  max-width: 380px;
+  width: 31%;
+}
+
+.how-to-play-wrap .how-to-list .how-to-item .how-to-item-img {
+  display: block;
+  margin: 0 auto 20px auto;
+  position: relative;
+  max-height: 80px;
+}
+
+.how-to-play-wrap .how-to-list .how-to-item .how-to-item-text {
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+}
+
+.how-to-play-wrap .email-text {
+  display: block;
+  position: relative;
+  margin: 20px auto 0 auto;
+  max-width: 960px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 750px) {
+  .how-to-play-wrap .how-to-list {
+    display: block;
+  }
+  .how-to-play-wrap .how-to-list .how-to-item {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .how-to-play-wrap .how-to-list .how-to-item .how-to-item-img {
+    display: block;
+    margin: 60px auto 10px auto;
+  }
+}
+/*# sourceMappingURL=HowToPlayWrap.css.map */

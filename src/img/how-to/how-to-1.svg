@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="149.046" viewBox="0 0 80 149.046">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #1e5288;
+      }
+
+      .cls-3 {
+        fill: #78c5db;
+      }
+    </style>
+  </defs>
+  <g id="icon-1" transform="translate(1948.254 -1035.406)">
+    <g id="Group_230" data-name="Group 230" transform="translate(-1948.254 1035.406)">
+      <g id="Group_229" data-name="Group 229" class="cls-1">
+        <g id="Group_222" data-name="Group 222" transform="translate(15.537)">
+          <path id="Path_673" data-name="Path 673" class="cls-2" d="M-1911.735,1043.155l-17.7,17.971-.238-7.749,17.7-17.971Z" transform="translate(1929.67 -1035.406)"/>
+        </g>
+        <g id="Group_223" data-name="Group 223" transform="translate(7.491 7.749)">
+          <path id="Path_674" data-name="Path 674" class="cls-2" d="M-1921.422,1053.018l-17.7,17.971-.258-8.43,17.7-17.971Z" transform="translate(1939.378 -1044.589)"/>
+        </g>
+        <g id="Group_224" data-name="Group 224" transform="translate(1.048 49.989)">
+          <path id="Path_675" data-name="Path 675" class="cls-2" d="M-1913.135,1095.136l-17.7,17.971h-16.179l17.7-17.971Z" transform="translate(1947.012 -1095.136)"/>
+        </g>
+        <g id="Group_225" data-name="Group 225" transform="translate(0 16.179)">
+          <path id="Path_676" data-name="Path 676" class="cls-2" d="M-1929.508,1088.805l-17.7,17.971-1.048-34.227,17.7-17.971Z" transform="translate(1948.254 -1054.578)"/>
+        </g>
+        <g id="Group_226" data-name="Group 226" transform="translate(17.111)">
+          <path id="Path_677" data-name="Path 677" class="cls-3" d="M-1868.441,1035.406l4.047,131.075h-43.158l-2.5-81.086h-16.179l-1.048-33.944h7.749l-.258-8.36h8.43l-.237-7.685Z" transform="translate(1927.283 -1035.406)"/>
+        </g>
+        <g id="Group_227" data-name="Group 227" transform="translate(19.144 131.075)">
+          <path id="Path_678" data-name="Path 678" class="cls-2" d="M-1864.018,1192.02l-17.7,17.971h-43.158l17.7-17.971Z" transform="translate(1924.875 -1192.02)"/>
+        </g>
+        <g id="Group_228" data-name="Group 228" transform="translate(17.059 49.313)">
+          <path id="Path_679" data-name="Path 679" class="cls-2" d="M-1907.64,1176.9l-17.7,17.971-2.5-81.762,17.7-17.971Z" transform="translate(1927.841 -1095.136)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

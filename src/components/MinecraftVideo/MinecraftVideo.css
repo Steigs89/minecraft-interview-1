@@ -1,0 +1,17 @@
+.minecraft-video {
+  position: relative;
+}
+
+.minecraft-video h4 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.minecraft-video iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=MinecraftVideo.css.map */
