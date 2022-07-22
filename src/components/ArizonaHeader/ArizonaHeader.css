@@ -1,9 +1,10 @@
 .arizona-header {
   margin: 0 auto;
+  background-color: #ab0520;
 }
 
 .arizona-header .logo {
   display: block;
-  padding: 15px 0;
+  padding: 15px 10px 15px 10px;
 }
 /*# sourceMappingURL=ArizonaHeader.css.map */

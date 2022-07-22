@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const howTos = {
+const howTos = [
 	{
 		id: 0,
 		alt: "Step 1",
@@ -28,6 +28,7 @@ const howTos = {
 			</Fragment>
 		)
 	}
-}
+	];
+
 
 export default howTos;

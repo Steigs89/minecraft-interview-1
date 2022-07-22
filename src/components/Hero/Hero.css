@@ -2,6 +2,7 @@
   font-family: proxima-nova-condensed, Verdana, Geneva, sans-serif;
   color: white;
   margin: 0 auto;
+  background-color:#0c234b;
 }
 
 .hero .title {
@@ -73,6 +74,7 @@
   width: 100%;
   text-align: center;
   padding-top: 20px;
+  background-color: #8b0015;
   padding-bottom: 16px;
   color: #ffffff;
   font-weight: bolder;

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const MinecraftInfo = props => {
     const Style = {
-        margin-top: '0',
-        margin-bottom: '0'
+        margintop: '0',
+        marginbottom: '0'
     }
 
     return(
@@ -13,4 +13,4 @@ const MinecraftInfo = props => {
     )
 }
 
-export default MinecraftInfo
+export default MinecraftInfo;
